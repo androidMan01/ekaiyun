@@ -43,7 +43,7 @@
 
     <div style="max-width: 1200px; width: 100%; margin: 0 auto; padding-bottom: 150px">
 
-      <div style="padding: 30px 0">
+      <div class="group-title">
         <h1 class="paragraph-title"><span>主营业务</span></h1>
         <p>俄罗斯、中亚、欧洲双向铁路运输
         </p>
@@ -55,6 +55,7 @@
             :key="index"
             class="card-mb"
             @mouseenter="activeIndex = index"
+            @mouseleave="activeIndex = null"
         >
           <!-- 背景图片 -->
           <div
@@ -83,7 +84,7 @@
         </div>
       </div>
 
-      <div style="padding: 30px 0;">
+      <div  class="group-title">
         <h1 class="paragraph-title"><span>公司概况</span></h1>
         <p style="text-align: left;">浙江俄凯运供应链管理有限公司成立于2021年，公司注册资金一千万元，总部位于浙江省义乌市，有着得天独厚的 地理优势，公司管理层10年专注俄罗斯铁路运输，具有强大的项目工程物流运力资源整合能力，可以提供快捷安全的运 输服务和具有竞争力的价格体系。
           公司在吉林省长春市、黑龙江省绥芬河市、江苏省南京市、山东省青岛市设有分公司。主营徐州、济南、成都、郑州、高邑、义乌、金华、长春、大连、苏州、西安进出口中俄中亚班列全程跨境运输代理服务，整列进口板材，粮食，有色金属，纸浆，塑料颗粒等原材料；出口医疗设备，机械设备，日用百货，石墨 电极，商品车等常用物资。
@@ -99,7 +100,7 @@
         </div>
       </div>
 
-      <div style="padding: 30px 0;text-align: left;">
+      <div  class="group-title">
         <h1 class="paragraph-title"><span>公司概况</span></h1>
         <p style="text-align: left;">浙江俄凯运供应链管理有限公司成立于2021年，公司注册资金一千万元，总部位于浙江省义乌市，有着得天独厚的 地理优势，公司管理层10年专注俄罗斯铁路运输，具有强大的项目工程物流运力资源整合能力，可以提供快捷安全的运 输服务和具有竞争力的价格体系。
           公司在吉林省长春市、黑龙江省绥芬河市、江苏省南京市、山东省青岛市设有分公司。主营徐州、济南、成都、郑州、高邑、义乌、金华、长春、大连、苏州、西安进出口中俄中亚班列全程跨境运输代理服务，整列进口板材，粮食，有色金属，纸浆，塑料颗粒等原材料；出口医疗设备，机械设备，日用百货，石墨 电极，商品车等常用物资。
@@ -142,6 +143,7 @@ import renshu from '@/assets/renshu.png'
 import jizhuangxiang from '@/assets/jizhuangxiang.png'
 import huoche from '@/assets/huoche.png'
 import xianlu from '@/assets/xianlu.png'
+import bgImg from '@/assets/-62759.png'
 const images = ref([
   logo
 ]);
@@ -229,7 +231,7 @@ const activeIndex = ref(0);
 
 const cardsMb = ref([
   {
-    image: 'https://img1.baidu.com/it/u=1039988726,3061157592&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500',
+    image: bgImg,
     title: '俄罗斯进出口铁路运输',
     description: '<div>一.运输路线</div>' +
         '<div>（1）徐州、济南、成都、郑州、高邑、义乌、金华、长春、大连、苏州、西安—满洲里/二连/阿拉山口/霍尔果斯一俄罗斯全境/白俄罗斯明斯克。</div>' +
@@ -255,6 +257,10 @@ const cardsMb = ref([
 .home {
   text-align: center;
 
+}
+
+.group-title{
+  padding: 30px 0;line-height: 1.7;
 }
 
 .card-container {
