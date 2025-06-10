@@ -19,15 +19,75 @@
           />
         </transition>
       </div>
+
+      <div class="banner-content">
+        <div class="banner-big"><span class="banner-red">快速安全</span>将货物送达</div>
+        <div class="banner-big">做用户放心的货运物流服务商</div>
+        <div class="banner-small">五迷三道物流有限公司是具有国内国际航空客货运输销售代理资格的一家物流企</div>
+        <div class="banner-small">业，提供快递、急快件、普件、特殊货运、公路、铁路运输等航空运输代理业务</div>
+      </div>
+    </div>
+
+    <div class="data-container">
+      <div class="data-item" v-for="(item, index) in dataList" :key="index">
+        <img class="data-item-icon" :src="item.icon" />
+        <div class="data-item-txt">
+          <div>{{item.title}}</div>
+          <div class="data-item-value">{{item.value}}</div>
+        </div>
+      </div>
     </div>
 
 
+
+
     <div style="max-width: 1200px; width: 100%; margin: 0 auto; padding-bottom: 150px">
+
       <div style="padding: 30px 0">
-        <h1>标题一</h1>
-        <p>一、公司概况
-          XX物流有限公司成立于20XX年，是一家专注于综合物流服务的现代化企业，致力于为客户提供高效、安全、智能的供应链解决方案。公司总部位于[城市]，业务覆盖全国各省市，并在[海外地区]设有分支机构，形成了完善的国内+国际物流网络。
-          凭借多年的行业深耕，公司已发展成为集运输、仓储、配送、供应链管理于一体的综合性物流服务商，服务客户超过[XX万]家，年货运量突破[XX万吨]，在行业内树立了良好的口碑。
+        <h1 class="paragraph-title"><span>主营业务</span></h1>
+        <p>俄罗斯、中亚、欧洲双向铁路运输
+        </p>
+      </div>
+
+      <div class="card-container-mb">
+        <div
+            v-for="(card, index) in cardsMb"
+            :key="index"
+            class="card-mb"
+            @mouseenter="activeIndex = index"
+        >
+          <!-- 背景图片 -->
+          <div
+              class="card-bg"
+              :style="{ backgroundImage: `url(${card.image})` }"
+          ></div>
+
+          <!-- 底部标题蒙版 -->
+          <div class="card-title-mb">
+            {{ card.title }}
+          </div>
+
+          <!-- 悬停时显示的详情层 -->
+          <transition name="fade">
+            <div
+                v-show="activeIndex === index"
+                class="card-detail"
+            >
+              <div class="detail-content">
+                <h3 style="text-align: center">{{ card.title }}</h3>
+                <div v-html="card.description"></div>
+<!--                <button class="detail-btn">查看详情</button>-->
+              </div>
+            </div>
+          </transition>
+        </div>
+      </div>
+
+      <div style="padding: 30px 0;">
+        <h1 class="paragraph-title"><span>公司概况</span></h1>
+        <p style="text-align: left;">浙江俄凯运供应链管理有限公司成立于2021年，公司注册资金一千万元，总部位于浙江省义乌市，有着得天独厚的 地理优势，公司管理层10年专注俄罗斯铁路运输，具有强大的项目工程物流运力资源整合能力，可以提供快捷安全的运 输服务和具有竞争力的价格体系。
+          公司在吉林省长春市、黑龙江省绥芬河市、江苏省南京市、山东省青岛市设有分公司。主营徐州、济南、成都、郑州、高邑、义乌、金华、长春、大连、苏州、西安进出口中俄中亚班列全程跨境运输代理服务，整列进口板材，粮食，有色金属，纸浆，塑料颗粒等原材料；出口医疗设备，机械设备，日用百货，石墨 电极，商品车等常用物资。
+          团队拥有大批从事铁路运输丰富经验的专业人员，具有专业的国际业务能力，主攻“一带一路”沿线国家相关市 场，目前业务涵盖俄罗斯、白俄罗斯、哈萨克斯坦、乌兹别克斯坦等国及国内重点城市。
         </p>
       </div>
 
@@ -39,11 +99,11 @@
         </div>
       </div>
 
-      <div style="padding: 30px 0">
-        <h1>标题二</h1>
-        <p>一、公司发展
-          XX物流有限公司成立于20XX年，是一家专注于综合物流服务的现代化企业，致力于为客户提供高效、安全、智能的供应链解决方案。公司总部位于[城市]，业务覆盖全国各省市，并在[海外地区]设有分支机构，形成了完善的国内+国际物流网络。
-          凭借多年的行业深耕，公司已发展成为集运输、仓储、配送、供应链管理于一体的综合性物流服务商，服务客户超过[XX万]家，年货运量突破[XX万吨]，在行业内树立了良好的口碑。
+      <div style="padding: 30px 0;text-align: left;">
+        <h1 class="paragraph-title"><span>公司概况</span></h1>
+        <p style="text-align: left;">浙江俄凯运供应链管理有限公司成立于2021年，公司注册资金一千万元，总部位于浙江省义乌市，有着得天独厚的 地理优势，公司管理层10年专注俄罗斯铁路运输，具有强大的项目工程物流运力资源整合能力，可以提供快捷安全的运 输服务和具有竞争力的价格体系。
+          公司在吉林省长春市、黑龙江省绥芬河市、江苏省南京市、山东省青岛市设有分公司。主营徐州、济南、成都、郑州、高邑、义乌、金华、长春、大连、苏州、西安进出口中俄中亚班列全程跨境运输代理服务，整列进口板材，粮食，有色金属，纸浆，塑料颗粒等原材料；出口医疗设备，机械设备，日用百货，石墨 电极，商品车等常用物资。
+          团队拥有大批从事铁路运输丰富经验的专业人员，具有专业的国际业务能力，主攻“一带一路”沿线国家相关市 场，目前业务涵盖俄罗斯、白俄罗斯、哈萨克斯坦、乌兹别克斯坦等国及国内重点城市。
         </p>
       </div>
 
@@ -68,48 +128,7 @@
       </div>
     </div>
 
-      <div style="padding: 30px 0">
-        <h1>标题三</h1>
-        <p>一、公司发展
-          XX物流有限公司成立于20XX年，是一家专注于综合物流服务的现代化企业，致力于为客户提供高效、安全、智能的供应链解决方案。公司总部位于[城市]，业务覆盖全国各省市，并在[海外地区]设有分支机构，形成了完善的国内+国际物流网络。
-          凭借多年的行业深耕，公司已发展成为集运输、仓储、配送、供应链管理于一体的综合性物流服务商，服务客户超过[XX万]家，年货运量突破[XX万吨]，在行业内树立了良好的口碑。
-        </p>
-      </div>
 
-      <div class="card-container-mb">
-        <div
-            v-for="(card, index) in cardsMb"
-            :key="index"
-            class="card-mb"
-            @mouseenter="activeIndex = index"
-            @mouseleave="activeIndex = null"
-        >
-          <!-- 背景图片 -->
-          <div
-              class="card-bg"
-              :style="{ backgroundImage: `url(${card.image})` }"
-          ></div>
-
-          <!-- 底部标题蒙版 -->
-          <div class="card-title-mb">
-            {{ card.title }}
-          </div>
-
-          <!-- 悬停时显示的详情层 -->
-          <transition name="fade">
-            <div
-                v-show="activeIndex === index"
-                class="card-detail"
-            >
-              <div class="detail-content">
-                <h3>{{ card.title }}</h3>
-                <p>{{ card.description }}</p>
-                <button class="detail-btn">查看详情</button>
-              </div>
-            </div>
-          </transition>
-        </div>
-      </div>
     </div>
   </div>
 </template>
@@ -117,9 +136,22 @@
 <script setup>
 
 import { ref, onMounted, onUnmounted } from 'vue';
-
+import logo from '@/assets/-496.png'
+import jingyan from '@/assets/jingyan.png'
+import renshu from '@/assets/renshu.png'
+import jizhuangxiang from '@/assets/jizhuangxiang.png'
+import huoche from '@/assets/huoche.png'
+import xianlu from '@/assets/xianlu.png'
 const images = ref([
-  'https://img1.baidu.com/it/u=1039988726,3061157592&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500'
+  logo
+]);
+
+const dataList = ref([
+  {icon:jingyan, title: '服务年限', value: '10年'},
+  {icon:renshu, title: '服务过的客户', value: '1000+'},
+  {icon:jizhuangxiang, title: '每月平均发运集装箱', value: '1200+'},
+  {icon:huoche, title: '每月平均发车次数', value: '35+'},
+  {icon:xianlu, title: '可发运线路', value: '500+'}
 ]);
 
 const currentIndex = ref(0);
@@ -193,28 +225,28 @@ const cards = [
   },
   ];
 
-const activeIndex = ref(null);
+const activeIndex = ref(0);
 
 const cardsMb = ref([
   {
     image: 'https://img1.baidu.com/it/u=1039988726,3061157592&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500',
-    title: '项目案例一',
-    description: '这是第一个项目的详细说明文本，介绍项目的主要特点和成果。'
+    title: '俄罗斯进出口铁路运输',
+    description: '<div>一.运输路线</div>' +
+        '<div>（1）徐州、济南、成都、郑州、高邑、义乌、金华、长春、大连、苏州、西安—满洲里/二连/阿拉山口/霍尔果斯一俄罗斯全境/白俄罗斯明斯克。</div>' +
+        '<div>（2）金华、义乌、西安、郑州、高邑-阿拉山口/霍尔果斯-中亚五国</div>' +
+        '<div>(3)国内—沃尔西诺/别雷/明斯克，点对点包列直达班列。</div>' +
+        '<div>（4）莫斯科/基洛夫/叶卡捷琳堡/新西伯利亚/克市/伊尔库茨克-二连/满洲里/山口/果斯-中国 粮食/板材类产品全程/中国段半程铁路集装箱运输。</div>' +
+        '<div>（5）哈萨克斯坦/乌兹别克斯坦-山口/果斯-中国粮食类产品全程/中国段半程铁路集装箱运输。</div><br>'+
+        '<div>二.班列优势</div>' +
+        "<div>全国门点辐射价格优惠大班列时效快可通过仓储/装卸/拖车等多种延伸服务。</div>"
   },
   {
     image: 'https://img1.baidu.com/it/u=1039988726,3061157592&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500',
-    title: '项目案例二',
-    description: '这是第二个项目的详细说明文本，可以描述项目背景和实施过程。'
-  },
-  {
-    image: 'https://img1.baidu.com/it/u=1039988726,3061157592&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500',
-    title: '项目案例三',
-    description: '这是第三个项目的详细说明，重点突出项目的创新点和价值。'
-  },
-  {
-    image: 'https://img1.baidu.com/it/u=1039988726,3061157592&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500',
-    title: '项目案例四',
-    description: '这是第四个项目的详细介绍，可以说明项目的规模和影响力。'
+    title: '欧洲进出口铁路运输',
+    description: '<div>一.运输路线</div>' +
+        '<div>金华、义乌、苏州、徐州、西安一马拉/汉堡/杜伊斯堡</div>' +
+        '<div>二.班列优势</div>' +
+        "<div>全国门点辐射价格优惠大班列时效快可通过仓储/装卸/拖车等多种延伸服务。</div>"
   }
 ]);
 </script>
@@ -262,8 +294,31 @@ const cardsMb = ref([
 
 .banner-container {
   width: 100%;
-  height: 400px;
+  height: 600px;
   overflow: hidden;
+  position: relative;
+}
+
+.banner-content{
+  position: absolute;
+  width: 100%;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-big{
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.banner-small{
+  font-size: 18px
+}
+
+.banner-red{
+  color: rgb(242, 38, 69);
 }
 
 .banner-image {
@@ -283,6 +338,68 @@ const cardsMb = ref([
   opacity: 0;
 }
 
+
+.data-container{
+  background: #f5f5f5;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.data-item{
+  flex: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.data-item-txt{
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 12px;
+  color: #707070;
+  margin: 0 8px;
+}
+
+.data-item-value{
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.data-item-icon{
+  width: 30px;
+  height: 30px;
+}
+
+
+.paragraph-title {
+  margin: 0;
+  font-size: 32px;
+  text-align: center;
+}
+
+.paragraph-title:after, .paragraph-title:before {
+  content: "";
+  display: inline-block;
+  width: 37px;
+  height: 4px;
+  vertical-align: middle;
+}
+
+.paragraph-title:before
+{
+  background: linear-gradient(90deg, #fff, #bcbcbc);
+}
+
+.paragraph-title:after {
+  background: linear-gradient(90deg, #bcbcbc, #fff);
+}
+
+.paragraph-title span {
+  vertical-align: middle;
+  margin: 0 20px;
+}
 
 
 /* 纵向排列容器 */
@@ -347,7 +464,7 @@ const cardsMb = ref([
 
 .card-container-mb {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   padding: 20px;
   max-width: 1400px;
@@ -397,13 +514,15 @@ const cardsMb = ref([
   background: rgba(0, 0, 0, 0.7);
   color: white;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   padding: 20px;
 }
 
 .detail-content {
   transform: translateY(0);
   transition: transform 0.3s ease;
+  text-align: left;
+  line-height: 1.7;
 }
 
 .card:hover .detail-content {

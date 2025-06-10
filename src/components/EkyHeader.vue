@@ -1,6 +1,6 @@
 <template>
   <header class="app-header">
-    <div class="logo">门户网站</div>
+    <div class="logo-txt">俄凯运</div>
     <nav class="nav-menu">
       <router-link
           v-for="item in menuItems"
@@ -42,11 +42,15 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #2c3e50;
+  background-color: rgb(15, 31, 43);
   color: white;
 }
 
 .logo {
+  width: 50px;
+  height: 50px;
+}
+.logo-txt{
   font-size: 1.5rem;
   font-weight: bold;
 }
