@@ -46,6 +46,7 @@ export default {
   padding: 1rem 2rem;
   background-color: rgb(15, 31, 43);
   color: white;
+  line-height: 1.7;
 }
 .footer-line{
   margin: 20px;

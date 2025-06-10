@@ -473,7 +473,7 @@ const cardsMb = ref([
 
 .card-mb {
   position: relative;
-  aspect-ratio: 3/4; /* 保持卡片比例 */
+  aspect-ratio: 3/3; /* 保持卡片比例 */
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
