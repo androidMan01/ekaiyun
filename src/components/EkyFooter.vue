@@ -2,14 +2,15 @@
   <footer class="app-footer">
     <div class="footer-group">
       <div>
-        <span>地 址：浙江省义乌市福田街道城北路699号宏基大厦7楼705-707室</span>
+        地&nbsp;&nbsp;&nbsp;&nbsp;址：浙江省义乌市福田街道城北路699号宏基大厦7楼705-707室
       </div>
       <div>
-        <span>联系人：</span><span>吴可可销售经理 手机：13429028788 QQ:554438788 </span><br>
-              <span>孙孟典副总经理 手机：15057822888</span>
+        联系人：吴可可销售经理 手机：13429028788 QQ:554438788 <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;孙孟典总经理 手机：15057822888<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;郭政副总经理 手机：18554858948  邮箱：zguo@f5strans.ru
       </div>
       <div>
-        <span>邮  件 ：keith@ekaiyun.cc</span>
+        <span>邮&nbsp;&nbsp;&nbsp;&nbsp;件：keith@ekaiyun.cc</span>
       </div>
       <div class="footer-line"></div>
       <div>Copyright © 2017-2025 浙江俄凯运供应链管理有限公司 (ZheJiang Ekaiyun Supply Chain Management Co.,Ltd.) All Rights Reserved 浙ICP备19019857号-2</div>
@@ -24,16 +25,7 @@ import { useRouter } from 'vue-router'
 export default {
   name: 'AppHeader',
   setup() {
-    const router = useRouter()
 
-    const menuItems = ref([
-      { path: '/', title: '首页' },
-      { path: '/about', title: '关于我们' },
-      { path: '/services', title: '服务项目' },
-      { path: '/contact', title: '联系我们' }
-    ])
-
-    return { menuItems }
   }
 }
 </script>
