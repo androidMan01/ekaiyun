@@ -23,8 +23,8 @@
       <div class="banner-content">
         <div class="banner-big"><span class="banner-red">快速安全</span>将货物送达</div>
         <div class="banner-big">做用户放心的货运物流服务商</div>
-        <div class="banner-small">五迷三道物流有限公司是具有国内国际航空客货运输销售代理资格的一家物流企</div>
-        <div class="banner-small">业，提供快递、急快件、普件、特殊货运、公路、铁路运输等航空运输代理业务</div>
+        <div class="banner-small">浙江俄凯运供应链管理有限公司是具有国内国际航空客货运输销售代理资格的一家物</div>
+        <div class="banner-small">流企业，提供快递、急快件、普件、特殊货运、公路、铁路运输等航空运输代理业务</div>
       </div>
     </div>
 
@@ -45,7 +45,7 @@
 
       <div class="group-title">
         <h1 class="paragraph-title"><span>主营业务</span></h1>
-        <p>俄罗斯、中亚、欧洲双向铁路运输
+        <p class="content-txt">浙江俄凯运以义乌为枢纽，依托中俄-中亚铁路干线，构建"物流+跨境贸易"双轮驱动模式，通过轻资产运营（如集装箱租赁）和多元化商品销售布局，为大中小客户提供柔性供应链解决方案。其企业的灵活性与区域化子公司协同，形成差异化竞争力。
         </p>
       </div>
 
@@ -84,25 +84,25 @@
         </div>
       </div>
 
+<!--      <div  class="group-title">-->
+<!--        <h1 class="paragraph-title"><span>公司概况</span></h1>-->
+<!--        <p class="content-txt">浙江俄凯运供应链管理有限公司成立于2021年，公司注册资金一千万元，总部位于浙江省义乌市，有着得天独厚的 地理优势，公司管理层10年专注俄罗斯铁路运输，具有强大的项目工程物流运力资源整合能力，可以提供快捷安全的运 输服务和具有竞争力的价格体系。-->
+<!--          公司在吉林省长春市、黑龙江省绥芬河市、江苏省南京市、山东省青岛市设有分公司。主营徐州、济南、成都、郑州、高邑、义乌、金华、长春、大连、苏州、西安进出口中俄中亚班列全程跨境运输代理服务，整列进口板材，粮食，有色金属，纸浆，塑料颗粒等原材料；出口医疗设备，机械设备，日用百货，石墨 电极，商品车等常用物资。-->
+<!--          团队拥有大批从事铁路运输丰富经验的专业人员，具有专业的国际业务能力，主攻“一带一路”沿线国家相关市 场，目前业务涵盖俄罗斯、白俄罗斯、哈萨克斯坦、乌兹别克斯坦等国及国内重点城市。-->
+<!--        </p>-->
+<!--      </div>-->
+
+<!--      <div class="card-container">-->
+<!--        <div class="card" v-for="(card, index) in cards" :key="index">-->
+<!--          <img :src="card.image" alt="Card Image" class="card-image" />-->
+<!--          <h3 class="card-title">{{ card.title }}</h3>-->
+<!--          <p class="card-description">{{ card.description }}</p>-->
+<!--        </div>-->
+<!--      </div>-->
+
       <div  class="group-title">
         <h1 class="paragraph-title"><span>公司概况</span></h1>
-        <p style="text-align: left;">浙江俄凯运供应链管理有限公司成立于2021年，公司注册资金一千万元，总部位于浙江省义乌市，有着得天独厚的 地理优势，公司管理层10年专注俄罗斯铁路运输，具有强大的项目工程物流运力资源整合能力，可以提供快捷安全的运 输服务和具有竞争力的价格体系。
-          公司在吉林省长春市、黑龙江省绥芬河市、江苏省南京市、山东省青岛市设有分公司。主营徐州、济南、成都、郑州、高邑、义乌、金华、长春、大连、苏州、西安进出口中俄中亚班列全程跨境运输代理服务，整列进口板材，粮食，有色金属，纸浆，塑料颗粒等原材料；出口医疗设备，机械设备，日用百货，石墨 电极，商品车等常用物资。
-          团队拥有大批从事铁路运输丰富经验的专业人员，具有专业的国际业务能力，主攻“一带一路”沿线国家相关市 场，目前业务涵盖俄罗斯、白俄罗斯、哈萨克斯坦、乌兹别克斯坦等国及国内重点城市。
-        </p>
-      </div>
-
-      <div class="card-container">
-        <div class="card" v-for="(card, index) in cards" :key="index">
-          <img :src="card.image" alt="Card Image" class="card-image" />
-          <h3 class="card-title">{{ card.title }}</h3>
-          <p class="card-description">{{ card.description }}</p>
-        </div>
-      </div>
-
-      <div  class="group-title">
-        <h1 class="paragraph-title"><span>公司概况</span></h1>
-        <p style="text-align: left;">浙江俄凯运供应链管理有限公司成立于2021年，公司注册资金一千万元，总部位于浙江省义乌市，有着得天独厚的 地理优势，公司管理层10年专注俄罗斯铁路运输，具有强大的项目工程物流运力资源整合能力，可以提供快捷安全的运 输服务和具有竞争力的价格体系。
+        <p class="content-txt">浙江俄凯运供应链管理有限公司成立于2021年，公司注册资金一千万元，总部位于浙江省义乌市，有着得天独厚的 地理优势，公司管理层10年专注俄罗斯铁路运输，具有强大的项目工程物流运力资源整合能力，可以提供快捷安全的运 输服务和具有竞争力的价格体系。
           公司在吉林省长春市、黑龙江省绥芬河市、江苏省南京市、山东省青岛市设有分公司。主营徐州、济南、成都、郑州、高邑、义乌、金华、长春、大连、苏州、西安进出口中俄中亚班列全程跨境运输代理服务，整列进口板材，粮食，有色金属，纸浆，塑料颗粒等原材料；出口医疗设备，机械设备，日用百货，石墨 电极，商品车等常用物资。
           团队拥有大批从事铁路运输丰富经验的专业人员，具有专业的国际业务能力，主攻“一带一路”沿线国家相关市 场，目前业务涵盖俄罗斯、白俄罗斯、哈萨克斯坦、乌兹别克斯坦等国及国内重点城市。
         </p>
@@ -120,7 +120,7 @@
         <div class="text-content">
           <h3>{{ item.year }}</h3>
           <h4>{{ item.title }}</h4>
-          <p>{{ item.content }}</p>
+          <p v-html="item.content"></p>
         </div>
         <!-- 图片部分 -->
         <div class="image-content">
@@ -144,6 +144,10 @@ import jizhuangxiang from '@/assets/jizhuangxiang.png'
 import huoche from '@/assets/huoche.png'
 import xianlu from '@/assets/xianlu.png'
 import bgImg from '@/assets/-62759.png'
+import history01 from '@/assets/history01.png'
+import history02 from '@/assets/history02.png'
+import history03 from '@/assets/history03.png'
+import history04 from '@/assets/history04.png'
 const images = ref([
   logo
 ]);
@@ -151,7 +155,7 @@ const images = ref([
 const dataList = ref([
   {icon:jingyan, title: '服务年限', value: '10年'},
   {icon:renshu, title: '服务过的客户', value: '1000+'},
-  {icon:jizhuangxiang, title: '每月平均发运集装箱', value: '1200+'},
+  {icon:jizhuangxiang, title: '每月平均发运集装箱', value: '1800+'},
   {icon:huoche, title: '每月平均发车次数', value: '35+'},
   {icon:xianlu, title: '可发运线路', value: '500+'}
 ]);
@@ -202,28 +206,33 @@ const cards = [
 
   const historyList = [
   {
-    year: "2010年",
-    title: "公司成立",
-    content: "在XX市正式注册成立，专注于本地物流配送服务。",
-    image: "https://img1.baidu.com/it/u=1039988726,3061157592&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500",
+    year: "2021年",
+    title: "扬帆起航:公司成立",
+    content: "浙江俄凯运供应链管理有限公司成立于2021年，公司注册资金一千万元，总部位于浙江省义乌市。",
+    image: history01,
   },
   {
-    year: "2015年",
-    title: "全国网络布局",
-    content: "建立覆盖全国的10个分拨中心，开通跨省干线运输。",
-    image: "https://img1.baidu.com/it/u=1039988726,3061157592&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500",
+    year: "2022年-2023年",
+    title: "稳步成长:成长之路",
+    content: "首发哈尔滨-莫斯科特货汽车专列<br>" +
+        "首发鄂木斯克-满洲里-义乌炭黑专列<br>" +
+        "截止2023年6月进出口累积发运标箱10000*40HQ",
+    image: history02,
   },
   {
-    year: "2020年",
-    title: "智能化升级",
-    content: "引入AI物流调度系统，实现订单自动化处理。",
-    image: "https://img1.baidu.com/it/u=1039988726,3061157592&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500",
+    year: "2024年",
+    title: "砥砺前行：壮大之路",
+    content: "成立绥芬河公司，开拓俄罗斯粮食贸易<br>" +
+        "对标管理提升，创新服务体系，<br>" +
+        "用卓越的智慧积累卓越的高度，<br>" +
+        "塑造企业新形象！",
+    image: history03,
   },
   {
-    year: "2023年",
-    title: "国际业务拓展",
-    content: "开设东南亚海外仓，服务跨境电商客户。",
-    image: "https://img1.baidu.com/it/u=1039988726,3061157592&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500",
+    year: "2025年",
+    title: "展望未来",
+    content: "",
+    image: history04,
   },
   ];
 
@@ -232,7 +241,7 @@ const activeIndex = ref(0);
 const cardsMb = ref([
   {
     image: bgImg,
-    title: '俄罗斯进出口铁路运输',
+    title: '俄罗斯、中亚五国进出口铁路运输',
     description: '<div>一.运输路线</div>' +
         '<div>（1）徐州、济南、成都、郑州、高邑、义乌、金华、长春、大连、苏州、西安—满洲里/二连/阿拉山口/霍尔果斯一俄罗斯全境/白俄罗斯明斯克。</div>' +
         '<div>（2）金华、义乌、西安、郑州、高邑-阿拉山口/霍尔果斯-中亚五国</div>' +
@@ -260,7 +269,13 @@ const cardsMb = ref([
 }
 
 .group-title{
-  padding: 30px 0;line-height: 1.7;
+  padding: 30px 0;
+  line-height: 1.8;
+}
+
+.content-txt{
+  text-align: left;
+  font-size: 16px;
 }
 
 .card-container {
@@ -410,7 +425,7 @@ const cardsMb = ref([
 
 /* 纵向排列容器 */
 .history-container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 20px;
 }

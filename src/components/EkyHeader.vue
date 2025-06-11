@@ -1,6 +1,6 @@
 <template>
   <header class="app-header">
-    <div class="logo-txt">俄凯运</div>
+    <img class="logo" src="@/assets/logotxt.png">
     <nav class="nav-menu">
       <router-link
           v-for="item in menuItems"
@@ -41,18 +41,18 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: rgb(15, 31, 43);
+  padding: 0.5rem 2rem;
+  background-color: #ffffff;
   color: white;
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
+  height: 70px;
 }
 .logo-txt{
   font-size: 1.5rem;
   font-weight: bold;
+  height: 100px;
 }
 
 .nav-menu {
@@ -61,7 +61,7 @@ export default {
 }
 
 .nav-link {
-  color: white;
+  color: #333333;
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 4px;
@@ -69,11 +69,12 @@ export default {
 }
 
 .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(15, 31, 43, 0.1);
 }
 
 .nav-link.active {
   background-color: #42b983;
+  color: #ffffff;
   font-weight: bold;
 }
 </style>
