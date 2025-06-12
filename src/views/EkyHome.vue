@@ -179,8 +179,8 @@ const images = ref([
 
 const dataList = ref([
   {icon: jingyan, title: '服务年限', value: '10年'},
-  {icon: renshu, title: '服务过的客户', value: '1000+'},
-  {icon: jizhuangxiang, title: '每月平均发运集装箱', value: '1800+'},
+  {icon: renshu, title: '服务过的客户', value: '850+'},
+  {icon: jizhuangxiang, title: '每月平均发运集装箱', value: '1000+'},
   {icon: huoche, title: '每月平均发车次数', value: '35+'},
   {icon: xianlu, title: '可发运线路', value: '500+'}
 ]);
