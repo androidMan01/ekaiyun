@@ -33,7 +33,7 @@
         <div>keith@ekaiyun.cc</div>
       </div>
       <div class="footer-line"></div>
-      <div>Copyright © 2021-2025 浙江俄凯运供应链管理有限公司 (ZheJiang Ekaiyun Supply Chain Management Co.,Ltd.)
+      <div class="bottom-txt">Copyright © 2021-2025 浙江俄凯运供应链管理有限公司 (ZheJiang Ekaiyun Supply Chain Management Co.,Ltd.)
 <!--        All Rights Reserved 浙ICP备19019857号-2-->
       </div>
     </div>
@@ -60,6 +60,7 @@ export default {
   background-color: rgb(15, 31, 43);
   color: white;
   line-height: 1.7;
+  font-size: 16px;
 }
 
 .footer-line {
@@ -89,5 +90,9 @@ export default {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+}
+.bottom-txt{
+  text-align: center;
+  font-size: 14px;
 }
 </style>

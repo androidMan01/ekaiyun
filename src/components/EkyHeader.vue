@@ -59,6 +59,7 @@ export default {
 .nav-menu {
   display: flex;
   gap: 1.5rem;
+  margin-right: 35px;
 }
 
 .nav-link {
