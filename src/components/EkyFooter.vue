@@ -33,8 +33,8 @@
         <div>keith@ekaiyun.cc</div>
       </div>
       <div class="footer-line"></div>
-      <div>Copyright © 2017-2025 浙江俄凯运供应链管理有限公司 (ZheJiang Ekaiyun Supply Chain Management Co.,Ltd.) All
-        Rights Reserved 浙ICP备19019857号-2
+      <div>Copyright © 2021-2025 浙江俄凯运供应链管理有限公司 (ZheJiang Ekaiyun Supply Chain Management Co.,Ltd.)
+<!--        All Rights Reserved 浙ICP备19019857号-2-->
       </div>
     </div>
   </footer>

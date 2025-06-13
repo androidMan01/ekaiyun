@@ -7,8 +7,10 @@ import EkyMain from './components/EkyMain.vue'
 <template>
   <div class="app">
     <EkyHeader />
-    <EkyMain />
-    <EkyFooter />
+    <div class="container">
+      <EkyMain />
+      <EkyFooter />
+    </div>
   </div>
 </template>
 
@@ -30,5 +32,9 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+.container{
+  height: calc(100vh - 80px);
+  overflow-y: auto;
 }
 </style>

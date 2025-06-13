@@ -41,9 +41,10 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 2rem;
-  background-color: #ffffff;
+  height: 80px;
+  //background-color: #ffffff;
   color: white;
+  background: linear-gradient(to bottom, #ffffff, #F5F5F5);
 }
 
 .logo {
