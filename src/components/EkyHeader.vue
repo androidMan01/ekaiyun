@@ -44,7 +44,7 @@ export default {
   height: 80px;
   //background-color: #ffffff;
   color: white;
-  background: linear-gradient(to bottom, #ffffff, #F5F5F5);
+  background: linear-gradient(to bottom, #ffffff, #f9f9f9);
 }
 
 .logo {

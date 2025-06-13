@@ -56,7 +56,6 @@ export default {
 .app-footer {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
   padding: 1rem 2rem;
   background-color: rgb(15, 31, 43);
   color: white;
