@@ -12,29 +12,34 @@
         <div>
           <div class="contact-cell">
             <div class="contact-name"><span>吴</span><span>可</span><span>可</span></div>
-            <div class="contact-level"><span>（销</span><span>售</span><span>经</span><span>理）</span></div>
-            &nbsp;&nbsp;&nbsp;&nbsp;手机：13429028788&nbsp;&nbsp;&nbsp;&nbsp;QQ:554438788
+            <div class="contact-level"><span>（出</span><span>口</span><span>主</span><span>管）</span></div>
+            &nbsp;&nbsp;&nbsp;&nbsp;手机：13429028788&nbsp;&nbsp;&nbsp;&nbsp;邮箱：keith@ekaiyun.cc&nbsp;&nbsp;&nbsp;&nbsp;QQ:554438788
           </div>
           <div class="contact-cell">
-            <div class="contact-name"><span>孙</span><span>孟</span><span>典</span></div>
-            <div class="contact-level"><span>（总</span><span>经</span><span>理）</span></div>
-            &nbsp;&nbsp;&nbsp;&nbsp;手机：15057822888
+            <div class="contact-name"><span>郑</span><span>欣</span><span>龙</span></div>
+            <div class="contact-level"><span>（进</span><span>口</span><span>主</span><span>管）</span></div>
+            &nbsp;&nbsp;&nbsp;&nbsp;手机：18329054902&nbsp;&nbsp;&nbsp;&nbsp;邮箱：andrewzheng@ekaiyun.cc
           </div>
           <div class="contact-cell">
             <div class="contact-name"><span>郭</span><span>政</span></div>
             <div class="contact-level"><span>（副</span><span>总</span><span>经</span><span>理）</span></div>
             &nbsp;&nbsp;&nbsp;&nbsp;手机：18554858948&nbsp;&nbsp;&nbsp;&nbsp;邮箱：zguo@f5strans.ru
           </div>
+          <div class="contact-cell">
+            <div class="contact-name"><span>孙</span><span>孟</span><span>典</span></div>
+            <div class="contact-level"><span>（总</span><span>经</span><span>理）</span></div>
+            &nbsp;&nbsp;&nbsp;&nbsp;手机：15057822888
+          </div>
         </div>
       </div>
-      <div class="contact-cell">
-        <div class="contact-title"><span>邮</span><span>箱</span></div>
-        <div>：</div>
-        <div>keith@ekaiyun.cc</div>
-      </div>
+<!--      <div class="contact-cell">-->
+<!--        <div class="contact-title"><span>邮</span><span>箱</span></div>-->
+<!--        <div>：</div>-->
+<!--        <div>keith@ekaiyun.cc</div>-->
+<!--      </div>-->
       <div class="footer-line"></div>
       <div class="bottom-txt">Copyright © 2021-2025 浙江俄凯运供应链管理有限公司 (ZheJiang Ekaiyun Supply Chain Management Co.,Ltd.)
-<!--        All Rights Reserved 浙ICP备19019857号-2-->
+        All Rights Reserved 浙ICP备2025178834号-1
       </div>
     </div>
   </footer>
