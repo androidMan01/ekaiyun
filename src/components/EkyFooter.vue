@@ -23,7 +23,7 @@
           <div class="contact-cell">
             <div class="contact-name"><span>郭</span><span>政</span></div>
             <div class="contact-level"><span>（副</span><span>总</span><span>经</span><span>理）</span></div>
-            &nbsp;&nbsp;&nbsp;&nbsp;手机：18554858948&nbsp;&nbsp;&nbsp;&nbsp;邮箱：zguo@f5strans.ru
+            &nbsp;&nbsp;&nbsp;&nbsp;手机：19260173163&nbsp;&nbsp;&nbsp;&nbsp;邮箱：zguo@f5strans.ru
           </div>
           <div class="contact-cell">
             <div class="contact-name"><span>孙</span><span>孟</span><span>典</span></div>
